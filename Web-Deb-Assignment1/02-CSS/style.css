@@ -1,0 +1,24 @@
+* {
+	padding:0;
+	margin:0;
+	font-family: Century Gothic;
+}
+a {
+body{
+                background-color:rgba(225,225,225,0.7);
+                width: 800px;
+                color: black;
+                margin: 5px auto;
+                padding: 10px;
+				font-weight: normal;
+			}
+}
+
+li{
+    display:inline-block;
+    padding:5px;
+    border:1px solid none;
+}
+li:hover{
+    border:1px solid #FC0;
+}
