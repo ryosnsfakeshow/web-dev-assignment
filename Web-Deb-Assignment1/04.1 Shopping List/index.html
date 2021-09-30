@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="Menu.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="prodi.html">Prodi</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="country.html">Country</a>
+        </li>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+        body {
+
+          background-color: white;
+          color: black;
+        }
+        
+        .dark-mode {
+          background-color: black;
+          color: white;
+          <div class="card" style="background-color:#ffffff;">
+        }
+        </style>
+        </head>
+        <label class="switch">
+          <input id='gelap' type='checkbox' onclick='myFunction()' value='on'/>
+          <span class="slider round"></span>
+          </label>
+        <script>
+        function myFunction() {
+           var element = document.body;
+           element.classList.toggle("dark-mode");
+        }
+        </script>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    
+<div id="main_col">
+
+  <div id="article">
+ 
+
+    </div>
+    <style>
+
+      .switch {
+        position: relative;
+        display: inline-block;
+        width: 35px;
+        height: 15px;
+        border:1px solid #547991;
+        border-radius:34px;
+      }
+      /* Sembunyikan checkbox */
+      .switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+      }
+      /* Bola tombol */
+      .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background:transparent;
+        -webkit-transition: .3s;
+        transition: .3s;
+      }
+      .slider:before {
+        position: absolute;
+        content: "";
+        height: 13px;
+        width: 13px;
+        left: 1px;
+        bottom: .9px;
+        background-color: #D41B1C;
+        -webkit-transition: .3s;
+        transition: .3s;
+      }
+      input:checked + .slider {
+        background-color: #008CB7;
+      }
+      input:focus + .slider {
+        box-shadow: 0 0 1px #008CB7;
+      }
+      input:checked + .slider:before {
+        -webkit-transform: translateX(20px);
+        -ms-transform: translateX(20px);
+        transform: translateX(20px);
+      }
+      /* Bulatan */
+      .slider.round {
+        border-radius: 34px;
+      }
+      .slider.round:before {
+        border-radius: 50%;
+      }
+      </style>
+
+    
+    <title>Tugas kedua </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <h1>Belanja Barang</h1>
+    <div class="container">
+    <div class="input-group mb-3">
+        <label for="label"></label>
+        <input type="text" class="form-control" placeholder="Masukkan barang yang ingin dibelanja" aria-label="Recipient's username" aria-describedby="button-addon2" id="label">
+        <button class="btn btn-outline-secondary" type="button" id="button-addon2">Tambahkan Item Item</button>
+        
+    </div>
+   
+    <ul id="list">
+    
+    </ul>
+  </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
+    
+
+
+</body>
+</html>
